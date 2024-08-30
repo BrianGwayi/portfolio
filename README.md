@@ -12,6 +12,14 @@ Google [BigQuery](https://cloud.google.com/bigquery/docs/sandbox) | [Snowflake](
 Developing Data Pipelines  
 [Airflow](https://github.com/BrianGwayi/portfolio/blob/main/Airflow/etl.py) | [Airbyte]() | [dagster]() | [Prefect]()   
 
+```
+python3 -m venv prefect_env   
+source prefect_env/bin/activate   
+pip install -U prefect   
+prefect --version    
+prefect version    
+prefect server start``
+
 **3. Transformation**  
 Setting up dbt [Getting Started]()   
 Building Models  
