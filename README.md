@@ -1,3 +1,4 @@
+![airflowbanner](assets/imgs/IV.png)
 ![airflowbanner](assets/imgs/I.png)
 ![airflowbanner](assets/imgs/II.png)
 ![airflowbanner](assets/imgs/III.png)
@@ -9,17 +10,15 @@ Google [BigQuery](https://cloud.google.com/bigquery/docs/sandbox) | [Snowflake](
 
 **2. Ingestion**  
 Developing Data Pipelines  
-Python | Airflow | Airbyte | dagster | Prefect   
+[Python]() | [Airflow](https://github.com/BrianGwayi/portfolio/blob/main/Airflow/readme.md) | [Airbyte]() | [dagster]() | [Prefect]()   
 
 **3. Transformation**  
-Setting up dbt  
+Setting up dbt [Getting Started]()   
 Building Models  
 
 **4. Reporting**   
-Looker | Tableau | Power BI  
+[Looker]() | [Tableau]() | [Power BI]()  
 
 **5. Machine Learning**   
 Building ML Models  
 
-
-[job_lisitng pipeline](https://github.com/BrianGwayi/Simple_Airflow_Pipeline) | [adventure_works](https://github.com/BrianGwayi/Apache-Airflow)
