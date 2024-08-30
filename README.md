@@ -22,4 +22,4 @@ Looker | Tableau | Power BI
 Building ML Models  
 
 
-[job_lisitng pipeline](https://github.com/BrianGwayi/Simple_Airflow_Pipeline) [adventure_works](https://github.com/BrianGwayi/Apache-Airflow)
+[job_lisitng pipeline](https://github.com/BrianGwayi/Simple_Airflow_Pipeline) | [adventure_works](https://github.com/BrianGwayi/Apache-Airflow)
