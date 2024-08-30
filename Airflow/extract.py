@@ -3,6 +3,7 @@ import psycopg2
 import pandas as pd
 from google.cloud import bigquery
 
+@task()
 def get_tables():
     conn = psycopg2.connect(
             database = "db_adwoltp",
@@ -18,6 +19,7 @@ def get_tables():
 
     tbls = [x[0] for x in cursor.fetchall()]
 
+@task()
 def extract_load(tbls, conn):
 
     client = bigquery.Client()
@@ -33,3 +35,6 @@ def extract_load(tbls, conn):
         job = client.load_table_from_dataframe(
         df, table_id, job_config=job_config)
     job.result()
+
+get_tables = get_tables()
+extract_load = extract_load(get_tables)
