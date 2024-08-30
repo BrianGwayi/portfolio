@@ -10,7 +10,7 @@ Google [BigQuery](https://cloud.google.com/bigquery/docs/sandbox) | [Snowflake](
 
 **2. Ingestion**  
 Developing Data Pipelines  
-[Python]() | [Airflow](https://github.com/BrianGwayi/portfolio/blob/main/Airflow/readme.md) | [Airbyte]() | [dagster]() | [Prefect]()   
+[Airflow](https://github.com/BrianGwayi/portfolio/blob/main/Airflow/etl.py) | [Airbyte]() | [dagster]() | [Prefect]()   
 
 **3. Transformation**  
 Setting up dbt [Getting Started]()   
