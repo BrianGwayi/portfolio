@@ -18,8 +18,8 @@ source prefect_env/bin/activate
 pip install -U prefect   
 prefect --version    
 prefect version    
-prefect server start```
-
+prefect server start
+```
 **3. Transformation**  
 Setting up dbt [Getting Started]()   
 Building Models  
