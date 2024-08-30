@@ -13,7 +13,7 @@ Developing Data Pipelines
 [Python]() | [Airflow](https://github.com/BrianGwayi/portfolio/blob/main/Airflow/readme.md) | [Airbyte]() | [dagster]() | [Prefect]()   
 
 **3. Transformation**  
-Setting up dbt [Getting Started]() 
+Setting up dbt [Getting Started]()   
 Building Models  
 
 **4. Reporting**   
@@ -22,5 +22,3 @@ Building Models
 **5. Machine Learning**   
 Building ML Models  
 
-
-[job_lisitng pipeline](https://github.com/BrianGwayi/Simple_Airflow_Pipeline) | [adventure_works](https://github.com/BrianGwayi/Apache-Airflow)
