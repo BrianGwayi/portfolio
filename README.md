@@ -3,6 +3,13 @@
 ![airflowbanner](assets/imgs/II.png)
 ![airflowbanner](assets/imgs/III.png)
 
+
+![airflowbanner](assets/imgs/V.png)
+![airflowbanner](assets/imgs/VI.png)
+![airflowbanner](assets/imgs/VII.png)
+![airflowbanner](assets/imgs/VIII.png)
+![airflowbanner](assets/imgs/XI.png)   
+
 ## Projects  
 **1. Storage/Data Warehouse**  
 Implementing Data Warehouse Solutions   
@@ -22,11 +29,6 @@ Building Models
 **5. Machine Learning**   
 Building ML Models  
 ## Where is Our Data?
-![airflowbanner](assets/imgs/V.png)
-![airflowbanner](assets/imgs/VI.png)
-![airflowbanner](assets/imgs/VII.png)
-![airflowbanner](assets/imgs/VIII.png)
-![airflowbanner](assets/imgs/XI.png)
 ## Basic Set ups 
 
 **Prefect Setup**
