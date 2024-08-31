@@ -24,6 +24,7 @@ Building ML Models
 ## Where is Our Data?
 ![airflowbanner](assets/imgs/V.png)
 ![airflowbanner](assets/imgs/VI.png)
+![airflowbanner](assets/imgs/VII.png)
 ## Basic Set ups 
 
 **Prefect Setup**
