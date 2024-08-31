@@ -45,7 +45,9 @@ $ dagster dev
 ```
 $ python3 -m venv airflow-env   
 $ source airflow-env/bin/activate   
-$ pip install airflow
+$ export AIRFLOW_HOME=~/airflow
+$ pip install apache-airflow
+$ airflow db init
 $ airflow webserver -p 8080
 $ airflow sheduler   
 ```
