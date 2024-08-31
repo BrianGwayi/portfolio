@@ -25,6 +25,7 @@ Building ML Models
 ![airflowbanner](assets/imgs/V.png)
 ![airflowbanner](assets/imgs/VI.png)
 ![airflowbanner](assets/imgs/VII.png)
+![airflowbanner](assets/imgs/VIII.png)
 ## Basic Set ups 
 
 **Prefect Setup**
