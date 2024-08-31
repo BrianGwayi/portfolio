@@ -10,7 +10,7 @@ Google [BigQuery](https://cloud.google.com/bigquery/docs/sandbox) | [Snowflake](
 
 **2. Ingestion**  
 Developing Data Pipelines  
-[Python]() | [Airflow](https://github.com/BrianGwayi/portfolio/blob/main/Airflow/readme.md) | [Airbyte]() | [dagster]() | [Prefect]()   
+[Airflow](https://github.com/BrianGwayi/portfolio/blob/main/Airflow/etl.py) | [Airbyte]() | [dagster]() | [Prefect]()   
 
 **3. Transformation**  
 Setting up dbt [Getting Started]()   
@@ -21,4 +21,40 @@ Building Models
 
 **5. Machine Learning**   
 Building ML Models  
+
+## Basic Set ups 
+
+**Prefect Setup**
+```
+$ python3 -m venv prefect_env   
+$ source prefect_env/bin/activate   
+$ pip install -U prefect   
+$ prefect --version    
+$ prefect version    
+$ prefect server start
+```
+**Dagster Setup**
+```
+$ python3 -m venv dagster_env   
+$ source dagster/bin/activate   
+$ pip install dagster
+$ pip install -e ".[dev]"
+$ dagster dev   
+```
+**Airflow Setup**
+```
+$ python3 -m venv airflow-env   
+$ source airflow-env/bin/activate   
+$ export AIRFLOW_HOME=~/airflow
+$ pip install apache-airflow
+$ airflow db init
+$ airflow webserver -p 8080
+$ airflow sheduler   
+```
+**dbt**
+```
+$ python3 -m venv dbt-env   
+$ source dbt-env/bin/activate   
+$ python -m pip install dbt-core dbt-ADAPTER_NAME
+```
 
