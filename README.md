@@ -22,7 +22,7 @@ Building Models
 **5. Machine Learning**   
 Building ML Models  
 
-**Airflow Setup**
+**Prefect Setup**
 ```
 python3 -m venv prefect_env   
 source prefect_env/bin/activate   
@@ -30,5 +30,21 @@ pip install -U prefect
 prefect --version    
 prefect version    
 prefect server start
+```
+**Dagster Setup**
+```
+python3 -m venv dagster_env   
+source dagster/bin/activate   
+pip install dagster
+pip install -e ".[dev]"
+dagster dev   
+```
+**Airflow Setup**
+```
+python3 -m venv airflow-env   
+source airflow-env/bin/activate   
+pip install airflow
+airflow webserver -p 8080
+airflow sheduler   
 ```
 
