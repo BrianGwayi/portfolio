@@ -1,8 +1,6 @@
 ![airflowbanner](assets/imgs/IV.png)
 ![airflowbanner](assets/imgs/I.png)
 ![airflowbanner](assets/imgs/II.png)
-![airflowbanner](assets/imgs/III.png)
-
 
 ![airflowbanner](assets/imgs/V.png)
 ![airflowbanner](assets/imgs/VI.png)
@@ -10,6 +8,10 @@
 ![airflowbanner](assets/imgs/VIII.png)
 ![airflowbanner](assets/imgs/XI.png)   
 ![airflowbanner](assets/imgs/XII.png)   
+
+
+![airflowbanner](assets/imgs/III.png)
+
 
 ## Projects  
 **1. Storage/Data Warehouse**  
@@ -29,41 +31,4 @@ Building Models
 
 **5. Machine Learning**   
 Building ML Models  
-## Where is Our Data?
-
-## Basic Set ups 
-
-**Prefect Setup**
-```
-$ python3 -m venv prefect_env   
-$ source prefect_env/bin/activate   
-$ pip install -U prefect   
-$ prefect --version    
-$ prefect version    
-$ prefect server start
-```
-**Dagster Setup**
-```
-$ python3 -m venv dagster_env   
-$ source dagster/bin/activate   
-$ pip install dagster
-$ pip install -e ".[dev]"
-$ dagster dev   
-```
-**Airflow Setup**
-```
-$ python3 -m venv airflow-env   
-$ source airflow-env/bin/activate   
-$ export AIRFLOW_HOME=~/airflow
-$ pip install apache-airflow
-$ airflow db init
-$ airflow webserver -p 8080
-$ airflow sheduler   
-```
-**dbt**
-```
-$ python3 -m venv dbt-env   
-$ source dbt-env/bin/activate   
-$ python -m pip install dbt-core dbt-ADAPTER_NAME
-```
 
